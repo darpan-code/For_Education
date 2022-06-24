@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+
+.top-menu{
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+}
+
+.navbar-brand svg{
+    width: 66px;
+}
+
+.nav-bar{
+    height: 100px;
+    background-color: #F0F4F9;
+}
+
+.navbar-brand p{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0px!important;
+    margin-left: 12px;
+}
+
+.nav-menu{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-menu > div{
+    padding: 0 18px;
+}
+
+.sign-up{
+    width: 115px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.serch-btn{
+    width: 44px;
+    height: 44px;
+    font-size: 16px;
+    border: 1px solid #BDBDBD;
+}
+
+.home-banner{
+    height: 540px;
+    background-color: #F0F4F9;
+}
