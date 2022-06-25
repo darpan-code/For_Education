@@ -56,7 +56,7 @@
             </div>
         </div>
     </div>
-
+    
     <!-- nav bar section -->
     <nav class="container-fluid d-flex align-items-center nav-bar sticky-top">
         <div class="container">
@@ -106,174 +106,225 @@
         </div>
     </nav>
 
-    <!-- pricing section  -->
-    <div class="container-fluid" style="background-color: #F0F4F9; height: 850px; padding-top: 80px;">
+
+
+    <div class="container-fluid" style="padding-top: 80px;">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between" style="margin-bottom: 36px;">
                 <div class="col-7">
-                    <div class="inter fw-bold text-warning" style="font-size: 16px;">Our plans</div>
-                    <div class="georgia fw-bold" style="font-size: 48px;">Get in Reasonable price</div>
-                </div>
-                <div class="col-3">
-                    <div class="ms-auto bg-white rounded-3 d-flex justify-content-between" style="width: 244px; height: 52px; padding: 4px 4px;">
-                        <a class="text-white inter rounded-3 text-decoration-none" style="font-size: 16px; font-weight: 500; padding: 12px 26.5px; background-color: #00B2B2; line-height: normal;" href="#">Monthly</a>
-                        <a class="inter rounded-3 bg-white text-reset text-decoration-none" style="font-size: 16px; font-weight: 500; padding: 12px 26.5px; line-height: normal;" href="#">Yearly</a>
-                    </div>
+                    <div class="inter fw-bold text-warning" style="font-size: 16px;">Course category</div>
+                    <div class="georgia fw-bold" style="font-size: 48px;">Web Development</div>
                 </div>
             </div>
 
-            <div class="row justify-content-center" style="margin-top: 48px;">
-                <!-- 1st plan -->
-                <div class="col-auto" style="margin: 0 15px;">
-                    <div class="bg-white rounded-3 d-flex flex-column align-items-center" style="width: 370px; height: 523px; border: 1px solid #BDBDBD;">
-                        <div class="text-uppercase text-white fw-bold" style="background: #0053A7; font-size: 16px; padding: 8px 35px; display: inline-block;">Starter</div>
+            <div class="row justify-content-between" style="margin-bottom: 36px;">
 
-                        <div style="width: 299px; margin-top: 48px; margin-bottom: 24.5px; padding-bottom: 24.5px; border-bottom: 1px solid #BDBDBD;">
-                            <div class="georgia fw-bold text-black" style="font-size: 60px;">
-                                <span style="font-size: 24px;">$</span> 19<span style="font-size: 36px;">.00</span>
-                            </div>
-                            <div class="inter fw-normal" style="color: #BDBDBD; font-size: 16px;">
-                                A private limited is the most popular
-                            </div>
-                        </div>
+                <!-- filter 1  -->
+                <div class="col-auto inter">
+                    <div style="font-size: 20px; font-weight: bold; margin-bottom: 6px;">Categories</div>
+                    <select class="rounded-2" style="width: 270px; height: 44px; padding: 12px 16px; font-size: 16px; font-weight: 500; border: 1px solid #BDBDBD;" name="" id="">
+                        <option value="Web Development">Web Development</option>
+                    </select>
+                </div>
 
-                        <div style="width: 299px;">
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Access to 25 courses</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Course Discussions</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Offline Viewing</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Certificate after completion</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Private sessions</span>
-                            </div>
-                            
-                        </div>
-
-                        <div style="width: 299px; margin-top: 12px;">
-                            <button class="inter text-white rounded-3" style="width: 299px; height: 54px; background-color: #002147; font-weight: 500; font-size: 16px;  border: none;">Purchase now</button>
-                        </div>
-                    </div>
+                <!-- filter 2  -->
+                <div class="col-auto inter">
+                    <div style="font-size: 20px; font-weight: bold; margin-bottom: 6px;">Level</div>
+                    <select class="rounded-2" style="width: 270px; height: 44px; padding: 12px 16px; font-size: 16px; font-weight: 500; border: 1px solid #BDBDBD;" name="" id="">
+                        <option value="Web Development">All Level</option>
+                    </select>
                 </div>
                 
-                <!-- 2nd plan -->
-                <div class="col-auto" style="margin: 0 15px;">
-                    <div class="bg-white rounded-3 d-flex flex-column align-items-center" style="width: 370px; height: 523px; border: 1px solid #BDBDBD;">
-                        <div class="text-uppercase text-white fw-bold" style="background: #033977; font-size: 16px; padding: 8px 35px; display: inline-block;">Premium</div>
+                <!-- filter 3  -->
+                <div class="col-auto inter">
+                    <div style="font-size: 20px; font-weight: bold; margin-bottom: 6px;">Language</div>
+                    <select class="rounded-2" style="width: 270px; height: 44px; padding: 12px 16px; font-size: 16px; font-weight: 500; border: 1px solid #BDBDBD;" name="" id="">
+                        <option value="Web Development">English</option>
+                    </select>
+                </div>
 
-                        <div style="width: 299px; margin-top: 48px; margin-bottom: 24.5px; padding-bottom: 24.5px; border-bottom: 1px solid #BDBDBD;">
-                            <div class="georgia fw-bold text-black" style="font-size: 60px;">
-                                <span style="font-size: 24px;">$</span> 29<span style="font-size: 36px;">.00</span>
-                            </div>
-                            <div class="inter fw-normal" style="color: #BDBDBD; font-size: 16px;">
-                                A private limited is the most popular
-                            </div>
-                        </div>
+                <!-- filter 4  -->
+                <div class="col-auto inter">
+                    <div style="font-size: 20px; font-weight: bold; margin-bottom: 6px;">Instructor</div>
+                    <select class="rounded-2" style="width: 270px; height: 44px; padding: 12px 16px; font-size: 16px; font-weight: 500; border: 1px solid #BDBDBD;" name="" id="">
+                        <option value="Web Development">All Instructor</option>
+                    </select>
+                </div>
 
-                        <div style="width: 299px;">
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Access to 25 courses</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Course Discussions</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Offline Viewing</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Certificate after completion</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Private sessions</span>
-                            </div>
-                            
-                        </div>
+            </div>
 
-                        <div style="width: 299px; margin-top: 12px;">
-                            <button class="inter bg-warning text-black rounded-3" style="width: 299px; height: 54px; font-weight: 500; font-size: 16px; border: none;">Purchase now</button>
+            <div class="row">
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- 3rd plan -->
-                <div class="col-auto" style="margin: 0 15px;">
-                    <div class="bg-white rounded-3 d-flex flex-column align-items-center" style="width: 370px; height: 523px; border: 1px solid #BDBDBD;">
-                        <div class="text-uppercase text-white fw-bold" style="background: #002147; font-size: 16px; padding: 8px 35px; display: inline-block;">Enterprise</div>
-
-                        <div style="width: 299px; margin-top: 48px; margin-bottom: 24.5px; padding-bottom: 24.5px; border-bottom: 1px solid #BDBDBD;">
-                            <div class="georgia fw-bold text-black" style="font-size: 60px;">
-                                <span style="font-size: 24px;">$</span> 49<span style="font-size: 36px;">.00</span>
-                            </div>
-                            <div class="inter fw-normal" style="color: #BDBDBD; font-size: 16px;">
-                                A private limited is the most popular
-                            </div>
-                        </div>
-
-                        <div style="width: 299px;">
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Access to 25 courses</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Course Discussions</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Offline Viewing</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Certificate after completion</span>
-                            </div>
-                            
-                            <div class="inter" style="font-size: 16px; margin-bottom: 12px;">
-                                <span style="margin-right: 16px;"><i class="fa-solid fa-check"></i></span>
-                                <span>Private sessions</span>
-                            </div>
-                            
-                        </div>
-
-                        <div style="width: 299px; margin-top: 12px;">
-                            <button class="inter text-white rounded-3" style="width: 299px; height: 54px; background-color: #002147; font-weight: 500; font-size: 16px; border: none;">Purchase now</button>
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto" style="margin-bottom: 30px;">
+                    <div class="card rounded-3 overflow-hidden course-card position-relative">
+                        <img src="image/course/course1.png" class="card-img-top" style="margin-bottom: 21px;" alt="course1">
+                        <img class="position-absolute" style="top: 43%; left: 15px; border: 10px solid #F0F4F9;" src="image/course/course-logo1.png" alt="course-logo1">
+                        <div class="card-body">
+                            <h5 class="card-title inter" style="font-size: 23px; font-weight: bold;"><a href="#" class="text-reset text-decoration-none"> User Research for User Experience Design </a></h5>
+                            <p class="card-text text-muted inter" style="font-size: 17px;">The Museum of Modern Art</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 
-
-
-
-    <!-- news letter section  -->
+    <!-- news letter section -->
     <div class="container" style="padding: 80px 0;">
       <div class="row justify-content-center align-items-center">
         <div class="col-auto" style="margin-right: 58.8px;">
